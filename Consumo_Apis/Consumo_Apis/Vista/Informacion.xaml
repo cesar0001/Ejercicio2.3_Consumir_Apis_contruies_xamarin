@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Consumo_Apis.Vista.Informacion">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image Source="" x:Name="img" HeightRequest="60" WidthRequest="60"/>
+            <Label Text="Poblacion" FontSize="15" x:Name="plobacion" />
+            <Label Text="Capital" FontSize="15" x:Name="capital" />
+            <Label Text="Lenguaje" FontSize="15" x:Name="lenguaje" />
+
+            <Button Text="Ver la ubicacion en el mapa" x:Name="btnmapa" Clicked="btnmapa_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
